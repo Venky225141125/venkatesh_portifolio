@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*
+font-family: 'Clicker Script', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif;
+*/
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i{
+    margin: 0 8px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+.nav2{
+    font-weight: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 70px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+.menu a:hover{
+    color:#e67e22;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7)80%,#e67e22), url('Portfolio.jpg');
+    background-size: 100% 100%;
+}
+.h-text{
+    max-width: 600px;
+    color:white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-emphasis: center;
+}
+.h-text h1{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
+.secsec{
+    color: #efedeb;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7)80%,#e67e22), url('Portfolio.jpg');
+    background-size: 100% 100%;
+}
+
+.secsec .box{
+    width: 10vw;
+    height: 2px;
+    margin: 50px 0;
+    display:flex;
+
+}
+.secsec .ver{
+    height: 90px;
+    width: 2px;
+    margin: 0 100px;
+}
+.vertit{
+    position: relative;
+    top:80px;
+    width:150px;
+
+}
+.verdec{
+    position: relative;
+    top:80px;
+    width:150px;
+}
+.imgtop{
+    width:40px;
+    position:relative;
+    top:12px;
+    left:0px;
+}
+.aboutme{
+    color: #efedeb;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7)80%,#e67e22), url('Portfolio.jpg');
+    background-size: 100% 100%;
+}
+.ig{
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+}
+.me{
+    font-size: 20px;
+    padding-left: 450px;
+    padding-top: 4%;
+    float: right;
+}
+.me li{
+    padding-top: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+.certi
+{
+    color: #efedeb;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7)80%,#e67e22), url('Portfolio.jpg');
+    background-size: 100% 100%;
+}
+.cer li{
+    text-align: left;
+    height: 40px;
+    width: auto;
+    size: 40px;
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+}
+.cont1{
+    color: #efedeb;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7)80%,#e67e22), url('Portfolio.jpg');
+    background-size: 100% 100%;
+    
+}
+
+.cont1 .content{
+    margin-left: 30px;
+}
+.cont1 .contain{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20%;
+}
+.cont1 .contain .v1 .container{
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
+}
+.containerform{
+    background-color: #222f3e;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500px;
+}
+.containerform .inputBox{
+    position:relative;
+    width:100%;
+}
+.containerform .inputBox input{
+    width: 100%;
+    padding:3px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px #333;
+    outline: none;
+    resize: none;
+}
+.containerform .inputBox span{
+    transition: 0.5%;
+    color: #666;
+}
+.containerform .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    order: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+}
